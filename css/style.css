@@ -3856,7 +3856,7 @@ input[type="button"].btn-block {
   margin-left: -0.625rem; }
 
 .card-img-overlay {
-  position: relative;
+  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
@@ -8212,7 +8212,7 @@ h1, h2, h3, h4, h5,
     .hero-wrap {
       background-position: top center !important; } }
   .hero-wrap .overlay {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -8285,7 +8285,7 @@ h1, h2, h3, h4, h5,
         .owl-carousel.home-slider .slider-item {
           background-position: center center !important; } }
       .owl-carousel.home-slider .slider-item .overlay {
-        position: relative;
+        position: absolute;
         top: 0;
         bottom: 0;
         left: 0;
@@ -8303,7 +8303,7 @@ h1, h2, h3, h4, h5,
           position: relative;
           z-index: -1; }
           .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
-            position: relative;
+            position: absolute;
             top: 0;
             bottom: 0;
             left: 0;
