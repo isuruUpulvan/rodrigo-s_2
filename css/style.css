@@ -3856,7 +3856,7 @@ input[type="button"].btn-block {
   margin-left: -0.625rem; }
 
 .card-img-overlay {
-  position: absolute;
+  position: relative;
   top: 0;
   right: 0;
   bottom: 0;
@@ -4346,7 +4346,7 @@ input[type="button"].btn-block {
 
 .progress-bar-striped {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  overlay: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-size: 1rem 1rem; }
 
@@ -8212,7 +8212,7 @@ h1, h2, h3, h4, h5,
     .hero-wrap {
       background-position: top center !important; } }
   .hero-wrap .overlay {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
@@ -8285,7 +8285,7 @@ h1, h2, h3, h4, h5,
         .owl-carousel.home-slider .slider-item {
           background-position: center center !important; } }
       .owl-carousel.home-slider .slider-item .overlay {
-        position: absolute;
+        position: relative;
         top: 0;
         bottom: 0;
         left: 0;
@@ -8303,7 +8303,7 @@ h1, h2, h3, h4, h5,
           position: relative;
           z-index: -1; }
           .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
-            position: absolute;
+            position: relative;
             top: 0;
             bottom: 0;
             left: 0;
